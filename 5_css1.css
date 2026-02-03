@@ -1,0 +1,81 @@
+/* Page styling */
+body {
+    background-color: #b7dfe9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main header */
+h1 {
+    text-align: center;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+/* Section headers */
+h2 {
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    width: 95%;
+}
+
+/* Second paragraph */
+#paragraph2 {
+    border: 3px solid green;
+    background-color: white;
+    padding: 15px;
+    width: 70%;
+    margin: 20px 0;
+}
+
+/* Blue paragraphs */
+.blue {
+    background-color: #00008b;
+    color: white;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+/* Ordered list */
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+/* List links */
+ol a {
+    color: blue;
+}
+
+/* W3Schools link */
+a[href*="w3schools"] {
+    color: red;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #cccccc;
+    padding: 6px;
+}
+
+td {
+    background-color: white;
+    padding: 6px;
+}
